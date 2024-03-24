@@ -4,7 +4,7 @@ import animateImg from "../../assets/wave.svg";
 
 const Home = () => {
   return (
-    <div className="flex flex-col h-[100%] items-center justify-center relative">
+    <div className="flex flex-col mHeight items-center justify-center relative">
       <Hero />
       <img className="absolute bottom-0 w-full" src={animateImg} alt="" />
     </div>
